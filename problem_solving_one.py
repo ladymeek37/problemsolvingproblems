@@ -1,4 +1,4 @@
-word = "Hello"
+word = "Lady Meek"
 
 
 def reverser(word):
@@ -7,4 +7,4 @@ def reverser(word):
         reversed_word += word[index]
     return reversed_word
 
-print(f'Hello reversed is: {reverser("Hello")}')
+print(f'Hello reversed is: {reverser("Lady Meek")}')
