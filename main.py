@@ -1,12 +1,12 @@
-import problem_solving_one
+from problem_solving_one import reverser
 word = "Hello"
-print(f'{word} reversed is: {problem_solving_one.reverser(word)}')
+print(f'{word} reversed is: {reverser(word)}')
 
 import problem_solving_two
 words = "my name is lady"
 print (problem_solving_two.cap)
 
-import problem_solving_three
+from problem_solving_three import compress
 string = "hhhheeeelllloollladddyy"
-print (problem_solving_three.compress(string))
+print (compress(string))
 
