@@ -21,6 +21,3 @@ def compress(string):
             compressed += str(string[index])+ str(count)
         index = index + 1
     return compressed
-
-string = "hhhheeeelllloollladddyy"
-print (compress(string))

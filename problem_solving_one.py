@@ -4,7 +4,7 @@
 # 4. Return each letter.
 # 5. Print your reversed letters to the terminal using your new reverser function.
 
-word = "Lady Meek"
+
 
 
 def reverser(word):
@@ -13,4 +13,3 @@ def reverser(word):
         reversed_word += word[index]
     return reversed_word
 
-print(f'Hello reversed is: {reverser("Lady Meek")}')

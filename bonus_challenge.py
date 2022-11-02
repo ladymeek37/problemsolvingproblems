@@ -13,5 +13,4 @@ def reverser(word):
     for index in range(len(word) -1, -1, -1):
         reversed_word += word[index]
     return reversed_word
-
-print(f'{word} reversed is: {reverser(word)}')
+    print(f'{word} reversed is: {reverser(word)}')

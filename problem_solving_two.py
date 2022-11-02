@@ -7,4 +7,4 @@
 
 words = "my name is Lady"
 cap = words.title()
-print(cap)
+
