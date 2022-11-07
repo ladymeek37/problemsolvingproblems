@@ -10,3 +10,7 @@ from problem_solving_three import compress
 string = "hhhheeeelllloollladddyy"
 print (compress(string))
 
+from primenumber import is_prime
+for num in range(2, 100, 1):
+    is_prime(num)
+
