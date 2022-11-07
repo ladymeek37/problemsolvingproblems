@@ -4,7 +4,7 @@
 # 4. The whole number is the hours. The remainder is the minutes.
 # 5. Print it to the console.
 
-number = 180
+number = int(input("Enter a number to be converted into hours and minutes:  "))
 hours = number // 60
 minutes = number % 60
 
