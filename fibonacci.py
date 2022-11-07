@@ -1,4 +1,4 @@
-def fibonacci (nterms, n1):
+def fibonacci(nterms, n1):
     count = 0
     n2 = n1 + n1
     print("Fibonacci sequence:")
